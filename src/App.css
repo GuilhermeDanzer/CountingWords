@@ -1,0 +1,33 @@
+textarea {
+  outline: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+
+  height: 30vh;
+  resize: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #dfdf;
+}
+td,
+th {
+  padding: 10px;
+}
+
+td {
+  border: solid 0.2px black;
+}
+.trHeader {
+  border: solid 1px red;
+}
